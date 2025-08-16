@@ -1,11 +1,11 @@
 {
   "manifest_version": 3,
-  "name": "Element Border Highlighter",
-  "description": "Add or remove borders (outlines) around specific HTML elements on any page.",
+  "name": "Highlitify v1.0.0",
+  "description": "A tool to debug frontend.",
   "version": "1.0.0",
   "action": {
     "default_popup": "popup.html",
-    "default_title": "Border Highlighter"
+    "default_title": "Highlitify"
   },
   "permissions": ["scripting", "activeTab"],
   "host_permissions": ["<all_urls>"],

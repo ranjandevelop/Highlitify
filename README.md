@@ -20,8 +20,7 @@ Since this extension is **not published on the Chrome Web Store**, you need to i
 
 1. **Download the ZIP**
 
-   - [📥 Download Extension (ZIP)](./extension.zip)  
-     _(right-click and save if it doesn’t auto-download)_
+   - Download Extension (ZIP file) from Release.
 
 2. **Extract the ZIP**
 
@@ -59,7 +58,7 @@ Since this extension is **not published on the Chrome Web Store**, you need to i
 
 ## 📷 Screenshots
 
-_(Add screenshots of your popup UI and highlighted webpage here)_
+![Live](/extension_img.png)
 
 ---
 
