@@ -46,7 +46,6 @@
         if (msg.mode === "clear") {
           clearTags(msg.tags);
         } else {
-          // ✅ Pass color from popup
           highlightTags(msg.tags, msg.color || "#000000");
         }
       } else if (msg?.type === "EBH_RESET") {

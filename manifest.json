@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "Highlitify v1.0.0",
+  "name": "Highlitify",
   "description": "A tool to debug frontend.",
   "version": "1.0.0",
   "action": {

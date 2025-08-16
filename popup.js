@@ -135,12 +135,3 @@ function onSelectAll() {
 function onReset() {
   sendToContent({ type: "EBH_RESET" });
 }
-
-// Remove old button event listeners since we're using toggles now
-// const elementButtons = document.querySelectorAll("[data-tag]");
-// for (const btn of elementButtons) {
-//   btn.addEventListener("click", onElementButtonClick);
-// }
-
-// document.getElementById("selectAll").addEventListener("click", onSelectAll);
-// document.getElementById("reset").addEventListener("click", onReset);
