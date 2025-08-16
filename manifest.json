@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Element Border Highlighter",
+  "description": "Add or remove borders (outlines) around specific HTML elements on any page.",
+  "version": "1.0.0",
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Border Highlighter"
+  },
+  "permissions": ["scripting", "activeTab"],
+  "host_permissions": ["<all_urls>"],
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self'; style-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net https://unpkg.com"
+  },
+  "icons": {
+    "16": "icons.png",
+    "48": "icons.png",
+    "128": "icons.png"
+  }
+}
